@@ -1,3 +1,81 @@
+// PARAMETRLI TAKRORLANUVCHILAR
+// 1
+// let n = prompt("n sonini kiriting");
+// for (let i = 1; i <= n; i++) {
+//   console.log(i);
+// }
+// 2
+// let n = prompt("n sonini kiriting");
+// for (let i = n; i >= 1; i--) {
+//   console.log(i);
+// }
+// 3
+// let n = prompt("n sonini kiriting");
+// let sum = 0;
+// for (let i = 1; i <= n; i++) {
+//   sum += i;
+// }
+// console.log(sum);
+// 4
+// let n = prompt("n sonini kiriting");
+// for (let i = 1; i <= n; i++) {
+//   if (i % 2 == 0) {
+//     console.log(i);
+//   }
+// }
+// 5
+// let n = prompt("n sonini kiriting");
+// let sum = 0;
+// for (let i = 1; i <= n; i++) {
+//   if (i % 2 == 0) {
+//     console.log(i);
+//     sum += i;
+//   }
+// }
+// console.log(sum);
+// 6
+// let n = prompt("n sonini kiriting");
+// let sum = 0;
+// for (let i = 1; i <= n; i++) {
+//   if (i % 2 == 1) {
+//     console.log(i);
+//     sum += i;
+//   }
+// }
+// console.log(sum);
+// 7
+// let n = prompt("n sonini kiriting");
+// let sum = 0;
+// let counter = 0;
+// for (let i = 1; i <= n; i++) {
+//   if (n % i == 0) {
+//     counter += 1;
+//     sum += i;
+//   }
+// }
+// console.log(`soni ${counter}`);
+// console.log(`yig'indisi ${sum}`);
+// 8
+// let n = prompt("n sonini kiriting");
+// let tub = true;
+
+// if (n < 2) {
+//   tub = false;
+// } else {
+//   for (let i = 2; i < n; i++) {
+//     if (n % i == 0) {
+//       tub = false;
+//       break;
+//     }
+//   }
+// }
+
+// if (tub) {
+//   console.log("ha");
+// } else {
+//   console.log("yo'q");
+// }
+
 // FOR 1
 // let k = prompt("k sonini kiriting");
 // let n = prompt("n sonini kiriting (n>0)");
@@ -77,80 +155,3 @@
 //   s *= 1 + i / 10;
 // }
 // console.log(`S = ${s}`);
-// PARAMETRLI TAKRORLANUVCHILAR
-// 1
-// let n = prompt("n sonini kiriting");
-// for (let i = 1; i <= n; i++) {
-//   console.log(i);
-// }
-// 2
-// let n = prompt("n sonini kiriting");
-// for (let i = n; i >= 1; i--) {
-//   console.log(i);
-// }
-// 3
-// let n = prompt("n sonini kiriting");
-// let sum = 0;
-// for (let i = 1; i <= n; i++) {
-//   sum += i;
-// }
-// console.log(sum);
-// 4
-// let n = prompt("n sonini kiriting");
-// for (let i = 1; i <= n; i++) {
-//   if (i % 2 == 0) {
-//     console.log(i);
-//   }
-// }
-// 5
-// let n = prompt("n sonini kiriting");
-// let sum = 0;
-// for (let i = 1; i <= n; i++) {
-//   if (i % 2 == 0) {
-//     console.log(i);
-//     sum += i;
-//   }
-// }
-// console.log(sum);
-// 6
-// let n = prompt("n sonini kiriting");
-// let sum = 0;
-// for (let i = 1; i <= n; i++) {
-//   if (i % 2 == 1) {
-//     console.log(i);
-//     sum += i;
-//   }
-// }
-// console.log(sum);
-// 7
-// let n = prompt("n sonini kiriting");
-// let sum = 0;
-// let counter = 0;
-// for (let i = 1; i <= n; i++) {
-//   if (n % i == 0) {
-//     counter += 1;
-//     sum += i;
-//   }
-// }
-// console.log(`soni ${counter}`);
-// console.log(`yig'indisi ${sum}`);
-// 8
-// let n = prompt("n sonini kiriting");
-// let tub = true;
-
-// if (n < 2) {
-//   tub = false;
-// } else {
-//   for (let i = 2; i < n; i++) {
-//     if (n % i == 0) {
-//       tub = false;
-//       break;
-//     }
-//   }
-// }
-
-// if (tub) {
-//   console.log("ha");
-// } else {
-//   console.log("yo'q");
-// }
